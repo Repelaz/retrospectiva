@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+:root{
+    --branco:#F4F4F5;
+    --cinza:rgba(187, 187, 187, 1);
+    --preto: #18181B;
+    --vermelho:rgba(230, 0, 0, 1);
+}
