@@ -11,7 +11,7 @@
     --cinza:rgba(223, 223, 223, 1);
     --escuro: rgba(52, 52, 52, 1);
     --vermelho:rgba(230, 0, 0, 1);
-    ---cinza-escuro: rgba(188, 188, 188, 1);
+    --cinza-escuro: rgba(188, 188, 188, 1);
 }
 
 .escuro {
@@ -24,4 +24,129 @@
 
 .vermelho {
     background-color: var(--vermelho);
+}
+
+img{
+    max-width: 100%;
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: var(--cinza-escuro);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.itens-center{
+    align-items: center;
+}
+
+.j-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    padding: 13px 20px;
+    border-radius: 8px;
+    background-color: var(--escuro);
+    color: var(--branco);
+    border: 3px solid var(--branco);
+}
+
+.btn:hover {
+    background-color: var(--branco);
+    color: var(--escuro);
+    border: 3px solid var(--escuro);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+
+
+.logo{
+    font-family: "Paytone One", sans-serif;
+    font-size: 24px;
+    color: var(--white);
+    line-height: 32px;
+}
+
+.title{
+    font-size: 64px;
+    letter-spacing: -4%;
+}
+
+
+.subtitle{
+    font-size: 40px;
+    font-weight: 500;
+}
+.text-small{
+    font-size: 14px;
+}
+.text{
+    font-size: 16px;
+}
+.upper{
+    text-transform: uppercase; 
+}
+.bold{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+
+.g-medium{
+    gap: 28px;
+}
+.m-medium{
+    margin: 28px;
+}
+.g-small{
+    gap: 18px;
+}
+
+
+footer .logo{
+    padding: 40px 0;
+}
+footer{
+    padding: 15px;
+}
+
+header {
+    padding: 30px;
+}
+
+section{
+    padding: 0 30px;
+}
+
+.img-celulares{
+    max-width: 623px;
 }
