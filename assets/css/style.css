@@ -10,7 +10,7 @@
 
 :root{
     --branco:rgb(48, 152, 255);
-    --cinza:rgb(203, 203, 203);
+    --cinza:rgb(183, 183, 183);
     --escuro: rgba(52, 52, 52, 1);
     --vermelho:rgb(0, 96, 175);
     --cinza-escuro: rgb(232, 232, 232);
@@ -104,6 +104,7 @@ img {
 footer {
     margin-top: 30px;
     background-color: var(--vermelho);
+    box-shadow: 4px -5px 20px 2px rgba(0, 0, 0, 0.6);
     padding: 20px 0;
 }
 
@@ -114,3 +115,51 @@ footer div img {
 .gap-pp {
     gap: 10px;
 }
+
+@media (max-width: 733px) { 
+    body {
+        justify-content: center;
+    }
+
+    nav {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .texto {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 430px) {
+    .texto {
+        font-size: 19px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .texto {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 330px) {
+    .texto {
+        font-size: 14px;
+        padding: 20px;
+    }
+}
+
