@@ -9,11 +9,11 @@
 }
 
 :root{
-    --branco:rgba(255, 255, 255, 1);
-    --cinza:rgba(223, 223, 223, 1);
+    --branco:rgb(48, 152, 255);
+    --cinza:rgb(203, 203, 203);
     --escuro: rgba(52, 52, 52, 1);
-    --vermelho:rgba(230, 0, 0, 1);
-    --cinza-escuro: rgba(188, 188, 188, 1);
+    --vermelho:rgb(0, 96, 175);
+    --cinza-escuro: rgb(232, 232, 232);
 }
 
 .white {
@@ -92,11 +92,12 @@ header {
     padding: 20px;
     width:45vw;
     text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 img {
-    height: 250px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
     border-radius: 30px;
 }
 
